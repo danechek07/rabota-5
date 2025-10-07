@@ -12,14 +12,14 @@ int main() {
 
     double phi = numerator / denominator + cbrt(pow(x, 6) + pow(log(y), 2));
 
-    printf("=== Вычисление значения ф ===\n");
-    printf("Исходные данные:\n");
+    printf("=== Р’С‹С‡РёСЃР»РµРЅРёРµ Р·РЅР°С‡РµРЅРёСЏ С„ ===\n");
+    printf("РСЃС…РѕРґРЅС‹Рµ РґР°РЅРЅС‹Рµ:\n");
     printf("x = %.6f\n", x);
     printf("y = %.3f\n", y);
     printf("z = %.3f\n\n", z);
 
-    printf("Результат вычисления:\n");
-    printf("ф = %.3f\n", phi);
+    printf("Р РµР·СѓР»СЊС‚Р°С‚ РІС‹С‡РёСЃР»РµРЅРёСЏ:\n");
+    printf("С„ = %.3f\n", phi);
 
     return 0;
 }
